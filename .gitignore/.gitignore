@@ -1,0 +1,15 @@
+# Files and folders ignored by git
+# --------------------------------
+# Ignore local python files
+__pycache__
+*.ipynb_checkpoints
+*.pyc
+
+# -- BEAM -----------------------------------
+# Ignore the local BEAM build files
+SimMod/beam_model/dist
+SimMod/beam_model/build
+SimMod/beam_model/beam_carbon.egg-info
+SimMod_original/beam_model/dist
+SimMod_original/beam_model/build
+SimMod_original/beam_model/beam_carbon.egg-info
