@@ -1,0 +1,21 @@
+add_end: 0
+add_start: 0
+c_add: 0
+c_sens: 1.25
+carbon_model: pulse_response
+cfg_beam:
+  INIT_MAT: 596.0
+  INIT_MLO: 35625.0
+  INIT_MUP: 713.0
+  SUBSTEPS: 100
+  temperature_dependent: true
+cfg_box_diffusion:
+  DZ: 100
+  MIXING: probable
+ch4_add: 0
+dt: 1
+n2o_add: 0
+normalize_2000_conc: false
+rcp: '8.5'
+run_end_year: 2500.0
+run_start_year: 1765.0
